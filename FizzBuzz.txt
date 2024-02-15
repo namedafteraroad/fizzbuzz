@@ -1,0 +1,13 @@
+public string fizzBuzzMethod(int num1)
+{
+var fizzBuzzAns = "";
+
+if (num1 % 3 == 0){ fizzBuzzAns = "fizz";}
+
+if (num1 % 5 == 0) {fizzBuzzAns += "buzz";}
+
+return fizzBuzzAns;
+
+
+
+}
